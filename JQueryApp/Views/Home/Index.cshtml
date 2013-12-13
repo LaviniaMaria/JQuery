@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Catelusi</h1>
+<section id="left" style="float:left;width:50%" >
+    <form id="formular">
+        Nume<br />
+        <input type="text" id="name" />
+        <br /> Varsta<br />
+        <input type="text" id="age" /><br />
+        Rasa<br />
+        <input type="text" id="type" /><br />
+        <input type="button" value="Submit" id="add" />
+    </form>
+   
+</section>
+<section id="right" style="float:right;width:50%">
+    <div id="textArea">
+    <textarea rows="5" cols="40" id="Details"></textarea><br/>
+    </div>
+    <input type="button" value="Show list" id="show" /><br/>
+
+    <table id="tabel"  border="1">
+        <thead>
+        <th>Nume</th>
+        <th>Varsta</th>
+        <th>Rasa</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+</section>
